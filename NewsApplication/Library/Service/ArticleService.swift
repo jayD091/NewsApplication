@@ -13,11 +13,15 @@ class Article: EVObject {
     var source: Source?
     var author: String = ""
     var title: String = ""
-//    var description: String = ""
+    var description1: String = ""
     var url: String = ""
     var urlToImage: String = ""
     var publishedAt: String = ""
     var content: String = ""
+    
+    override func propertyMapping() -> [(keyInObject: String?, keyInResource: String?)] {
+        return [(keyInObject: "description1",keyInResource: "description")]
+    }
 }
 
 class Source: EVObject {

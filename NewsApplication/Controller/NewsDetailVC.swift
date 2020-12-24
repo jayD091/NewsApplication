@@ -12,6 +12,8 @@ class NewsDetailVC: BaseViewController {
 
     @IBOutlet weak var tableView: BaseTableView!
     
+    var articleData = Article()
+    
     override func viewDidLoad() {
         super.viewDidLoad() 
         tableView.registerXibs(identifiers: [NewDetailDataTVC.classIdentifier])
@@ -32,6 +34,7 @@ extension NewsDetailVC: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: NewDetailDataTVC.nameOfClass, for: indexPath) as? NewDetailDataTVC {
+            cell.configData(data: articleData)
             return cell
         }
         return UITableViewCell()

@@ -10,7 +10,12 @@ import UIKit
 
 class NewDetailDataTVC: BaseTableViewCell {
 
-    
+    @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var labelDescription: UILabel!
+    @IBOutlet weak var labelContent: UILabel!
+    @IBOutlet weak var labelAuthor: UILabel!
+    @IBOutlet weak var labelDate: UILabel!
+    @IBOutlet weak var imageData: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -18,6 +23,15 @@ class NewDetailDataTVC: BaseTableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+    }
+    
+    func configData(data: Article) {
+        labelTitle.text = data.title
+        labelDescription.text = data.description1
+        labelContent.text = data.content
+        labelAuthor.text = data.author
+        labelDate.text = data.publishedAt
+        imageData.downloaded(from: data.urlToImage)
     }
     
 }

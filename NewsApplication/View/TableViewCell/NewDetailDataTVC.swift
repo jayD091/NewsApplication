@@ -10,6 +10,8 @@ import UIKit
 
 class NewDetailDataTVC: BaseTableViewCell {
 
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

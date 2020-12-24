@@ -30,7 +30,7 @@ class NewDetailDataTVC: BaseTableViewCell {
         labelDescription.text = data.description1
         labelContent.text = data.content
         labelAuthor.text = data.author
-        labelDate.text = data.publishedAt
+        labelDate.text = Globals.shared.getDate(date: data.publishedAt)//data.publishedAt
         imageData.downloaded(from: data.urlToImage)
     }
     

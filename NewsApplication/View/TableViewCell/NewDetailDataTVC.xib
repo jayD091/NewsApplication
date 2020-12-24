@@ -33,7 +33,6 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ro6-Hg-t92">
                                 <rect key="frame" x="10" y="70" width="280" height="128"/>
-                                <color key="backgroundColor" red="0.1960784314" green="0.88235294119999996" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="NOZ-d4-NRD"/>
                                 </constraints>

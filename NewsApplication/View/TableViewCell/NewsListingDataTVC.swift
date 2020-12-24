@@ -27,6 +27,7 @@ class NewsListingDataTVC: BaseTableViewCell {
         labelHeader.text = data.title
         labelAuthor.text = data.author
         labelPublishedAt.text = data.publishedAt
+        labelPublishedAt.text = Globals.shared.getDate(date: data.publishedAt)
         imageData.downloaded(from: data.urlToImage)
     }
     

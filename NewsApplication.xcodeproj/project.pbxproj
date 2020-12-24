@@ -28,6 +28,7 @@
 		FA7664A4259473F20053027F /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7664A3259473F20053027F /* ArticleService.swift */; };
 		FA7664A62594778E0053027F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7664A52594778E0053027F /* NetworkManager.swift */; };
 		FA7664A825947B1F0053027F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7664A725947B1F0053027F /* Globals.swift */; };
+		FABC3A042594883800888DD0 /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC3A032594883800888DD0 /* DateFormatter+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		FA7664A3259473F20053027F /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		FA7664A52594778E0053027F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FA7664A725947B1F0053027F /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		FABC3A032594883800888DD0 /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				FA766495259462930053027F /* NSObject+Extension.swift */,
 				FA766499259467360053027F /* UIColor+Extension.swift */,
 				FA76649F25946B520053027F /* UIViewController+Extension.swift */,
+				FABC3A032594883800888DD0 /* DateFormatter+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				FA7664A025946B520053027F /* UIViewController+Extension.swift in Sources */,
 				FA766493259460DB0053027F /* BaseTableViewCell.swift in Sources */,
+				FABC3A042594883800888DD0 /* DateFormatter+Extension.swift in Sources */,
 				FA766498259466680053027F /* NewsDetailVC.swift in Sources */,
 				FA7664A4259473F20053027F /* ArticleService.swift in Sources */,
 				FA76648925945F720053027F /* BaseViewController.swift in Sources */,
